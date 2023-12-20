@@ -1,0 +1,15 @@
+@import "../styles/mixins";
+
+.nav {
+  grid-area: nav;
+  background-color: #a3ff9c;
+  padding: ac(35px, 15px) ac(15px, 10px);
+}
+
+.item {
+  margin-top: 15px;
+
+  //&:last-child {
+  //  margin-top: 0;
+  //}
+}

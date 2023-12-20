@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 16px;
+  overflow-x: hidden;
+  background: #fff;
+  scroll-behavior: smooth;
+  color: #000;
+  height: 100vh;
+}
+
+
+.cont {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: perc(1210);
+  transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,21 @@
+.nav {
+  grid-area: nav;
+  background-color: #a3ff9c;
+  padding: min(max(
+                              15px + 20 *
+                              (
+                              (100vw - 768px) / 672
+                              )
+                      , 15px), 35px) min(max(
+                              10px + 5 *
+                              (
+                              (100vw - 768px) / 672
+                              )
+                      , 10px), 15px);
+}
+
+.item {
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=Navbar.module.css.map */

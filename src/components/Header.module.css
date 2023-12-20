@@ -1,0 +1,9 @@
+.header {
+  grid-area: header;
+  background-color: #0aa400;
+}
+.header__img {
+  max-width: 50px;
+}
+
+/*# sourceMappingURL=Header.module.css.map */

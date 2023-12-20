@@ -1,0 +1,10 @@
+.content {
+  grid-area: content;
+  background-color: #fddb91;
+}
+.info {
+  &__img {
+    max-width: 100px;
+    border-radius: 50%;
+  }
+}

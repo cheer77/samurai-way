@@ -2,7 +2,7 @@
   "name": "samurai-way",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://cheer77.github.io/samurai-way",
   "dependencies": {
     "@testing-library/jest-dom": "5.14.1",
     "@testing-library/react": "12.0.0",
@@ -23,6 +23,7 @@
     "redux-form": "8.3.8",
     "redux-thunk": "2.4.1",
     "reselect": "4.1.5",
+    "sass": "^1.69.5",
     "typescript": "4.4.2",
     "uuid": "8.3.2",
     "web-vitals": "2.1.0"
