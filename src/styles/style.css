@@ -80,9 +80,7 @@ button {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  font-family: "Lora", serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 16px;
   overflow-x: hidden;
@@ -102,7 +100,7 @@ body {
 .app-wrapper {
   display: grid;
   grid-template-areas: "header header" "nav content";
-  grid-template-rows: 60px 1fr;
+  grid-template-rows: 1fr;
   grid-template-columns: 2fr 10fr;
 }
 

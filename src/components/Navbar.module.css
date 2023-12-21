@@ -15,7 +15,10 @@
 }
 
 .item {
-  margin-top: 15px;
+  margin-bottom: 7px;
+}
+.item:last-child {
+  margin-top: 35px;
 }
 
 /*# sourceMappingURL=Navbar.module.css.map */

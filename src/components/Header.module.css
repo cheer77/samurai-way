@@ -1,6 +1,9 @@
 .header {
+  display: flex;
+  align-items: center;
   grid-area: header;
   background-color: #0aa400;
+  min-height: 65px;
 }
 .header__img {
   max-width: 50px;

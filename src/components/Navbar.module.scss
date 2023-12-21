@@ -7,9 +7,13 @@
 }
 
 .item {
-  margin-top: 15px;
+  margin-bottom: 7px;
 
-  //&:last-child {
-  //  margin-top: 0;
-  //}
+  &:last-child {
+    margin-top: 35px;
+  }
+
+  a{
+
+  }
 }

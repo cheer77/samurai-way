@@ -1,6 +1,15 @@
 .content {
   grid-area: content;
   background-color: #fddb91;
+  height: calc(100vh - 65px);
+}
+.content__bg {
+  position: relative;
+  min-height: 230px;
+  overflow: hidden;
+}
+.content__bg img {
+  position: absolute;
 }
 
 .info__img {
