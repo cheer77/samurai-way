@@ -82,19 +82,23 @@ button {
 body {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: min(max(
+                              16px + 2 *
+                              (
+                              (100vw - 768px) / 672
+                              )
+                      , 16px), 18px);
   overflow-x: hidden;
   background: #fff;
   scroll-behavior: smooth;
-  color: #000;
+  color: #212121;
   height: 100vh;
 }
 
 .cont {
   margin: 0 auto;
   max-width: 1440px;
-  width: 84.0277777778%;
-  transition: all 0.3s ease-in-out;
+  width: 88.8888888889%;
 }
 
 .app-wrapper {

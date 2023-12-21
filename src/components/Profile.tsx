@@ -9,20 +9,20 @@ export const Profile = () => {
       </div>
 
       <div className={s.info}>
-        <img
-          className={s.info__img}
-          src="https://storage.prompt-hunt.workers.dev/clflygqlk000qle08h8l5kgp9_1"
-          alt=""
-        />
+        <div className={s.info__main}>
+          <img
+            className={s.info__img}
+            src="https://storage.prompt-hunt.workers.dev/clflygqlk000qle08h8l5kgp9_1"
+            alt=""
+          />
 
-        <div className={s.info__box}>
-          <h1></h1>
-
-          <p>Alex.C</p>
-          <p>Date of birth: 9 June</p>
-          <p>City: Offenburg</p>
-          <p>Education: NTU 'KHPI'</p>
-          <p>WebSite: google.com</p>
+          <div className={s.info__box}>
+            <p>Alex.C</p>
+            <p>Date of birth: 9 June</p>
+            <p>City: Offenburg</p>
+            <p>Education: NTU 'KHPI'</p>
+            <p>WebSite: google.com</p>
+          </div>
         </div>
 
         <div className={s.post}>
@@ -31,10 +31,10 @@ export const Profile = () => {
             <input type="text" placeholder="add new post" />
           </div>
 
-          <div className={s.post__other}>
-            <span>Post 1</span>
-            <span>Post 2</span>
-            <span>Post 3</span>
+          <div className={s.post__others}>
+            <div className={s.post__item}>Post 1</div>
+            <div className={s.post__item}>Post 2</div>
+            <div className={s.post__item}>Post 3</div>
           </div>
         </div>
       </div>

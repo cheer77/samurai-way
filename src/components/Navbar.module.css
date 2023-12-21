@@ -20,5 +20,12 @@
 .item:last-child {
   margin-top: 35px;
 }
+.item a {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.item a:hover {
+  color: #7c7c7c;
+}
 
 /*# sourceMappingURL=Navbar.module.css.map */

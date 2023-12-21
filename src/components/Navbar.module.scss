@@ -13,7 +13,11 @@
     margin-top: 35px;
   }
 
-  a{
-
+  a {
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      color: #7c7c7c;
+    }
   }
 }

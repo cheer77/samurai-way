@@ -12,9 +12,62 @@
   position: absolute;
 }
 
+.info {
+  padding: 15px 15px;
+}
+.info__main {
+  display: flex;
+  align-items: self-start;
+  margin-bottom: 15px;
+}
 .info__img {
   max-width: 100px;
   border-radius: 50%;
+  margin-right: 30px;
+}
+.info__box p {
+  margin-bottom: 5px;
+}
+.info__box p:first-child {
+  font-weight: 600;
+  font-size: min(max(
+                              20px + 5 *
+                              (
+                              (100vw - 768px) / 672
+                              )
+                      , 20px), 25px);
+  margin-bottom: 15px;
+}
+
+.post {
+  margin-top: 30px;
+  max-width: 100%;
+}
+.post__new {
+  margin-top: 15px;
+}
+.post__new input {
+  color: #212121;
+  max-width: 85%;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #e7ffdc;
+  outline: 0;
+}
+.post__new input::placeholder {
+  color: #212121;
+}
+.post__others {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.post__item {
+  margin-bottom: 15px;
+}
+.post__item:last-child {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=Profile.module.css.map */
