@@ -1,9 +1,4 @@
 import React, { useState } from "react";
-import s from "./Profile.module.scss";
-
-// type yearType = {
-//   currentYear: number;
-// };
 
 export const Footer = () => {
   let currentYear: number = new Date().getFullYear();

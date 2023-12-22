@@ -1,0 +1,31 @@
+
+
+
+.post {
+  margin-top: 30px;
+  max-width: 100%;
+
+  &__new {
+    margin-top: 15px;
+    input {
+      color: #212121;
+      max-width: 85%;
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: #e7ffdc;
+      outline: 0;
+
+      &::placeholder {
+        color: #212121;
+      }
+    }
+  }
+
+  &__others {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+}

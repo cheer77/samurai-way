@@ -1,0 +1,26 @@
+.post {
+  margin-top: 30px;
+  max-width: 100%;
+}
+.post__new {
+  margin-top: 15px;
+}
+.post__new input {
+  color: #212121;
+  max-width: 85%;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #e7ffdc;
+  outline: 0;
+}
+.post__new input::placeholder {
+  color: #212121;
+}
+.post__others {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=MyPosts.module.css.map */
