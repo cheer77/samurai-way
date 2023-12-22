@@ -1,7 +1,7 @@
 .content {
-  grid-area: content;
   background-color: #fddb91;
-  height: calc(100vh - 65px);
+  max-width: 100%;
+  width: 100%;
 }
 .content__bg {
   position: relative;

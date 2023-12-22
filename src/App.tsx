@@ -8,8 +8,8 @@ import { Profile } from "./components/Profile";
 function App() {
   return (
     <div className="App">
-      <div className="app-wrapper cont">
-        <Header />
+      <Header />
+      <div className="content-wrapper cont">
         <Navbar />
         <Profile />
       </div>

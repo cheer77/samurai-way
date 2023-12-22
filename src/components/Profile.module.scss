@@ -1,9 +1,9 @@
 @import "../styles/mixins";
 
 .content {
-  grid-area: content;
   background-color: #fddb91;
-  height: calc(100vh - 65px);
+  max-width: 100%;
+  width: 100%;
 
   &__bg {
     position: relative;
@@ -63,16 +63,31 @@
   }
 
   &__others {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
   }
 
   &__item {
+    display: flex;
+    align-items: self-start;
     margin-bottom: 15px;
 
     &:last-child {
       margin-bottom: 0;
     }
+
+    p {
+      margin-top: 7px;
+    }
+  }
+
+  &__avatar {
+    max-width: 70px;
+    min-height: 70px;
+    width: 100%;
+    background-color: #ffcd6b;
+    border-radius: 50%;
+    margin-right: 20px;
   }
 }

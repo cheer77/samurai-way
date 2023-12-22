@@ -1,5 +1,4 @@
 .nav {
-  grid-area: nav;
   background-color: #a3ff9c;
   padding: min(max(
                               15px + 20 *
@@ -12,6 +11,8 @@
                               (100vw - 768px) / 672
                               )
                       , 10px), 15px);
+  max-width: 150px;
+  width: 100%;
 }
 
 .item {

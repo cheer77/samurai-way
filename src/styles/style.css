@@ -101,11 +101,135 @@ body {
   width: 88.8888888889%;
 }
 
-.app-wrapper {
-  display: grid;
-  grid-template-areas: "header header" "nav content";
-  grid-template-rows: 1fr;
-  grid-template-columns: 2fr 10fr;
+.header {
+  display: flex;
+  align-items: center;
+  grid-area: header;
+  background-color: #0aa400;
+  min-height: 65px;
+}
+.header__img {
+  max-width: 50px;
+}
+
+.nav {
+  background-color: #a3ff9c;
+  padding: min(max(
+                              15px + 20 *
+                              (
+                              (100vw - 768px) / 672
+                              )
+                      , 15px), 35px) min(max(
+                              10px + 5 *
+                              (
+                              (100vw - 768px) / 672
+                              )
+                      , 10px), 15px);
+  max-width: 150px;
+  width: 100%;
+}
+
+.item {
+  margin-bottom: 7px;
+}
+.item:last-child {
+  margin-top: 35px;
+}
+.item a {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.item a:hover {
+  color: #7c7c7c;
+}
+
+.content {
+  background-color: #fddb91;
+  max-width: 100%;
+  width: 100%;
+}
+.content__bg {
+  position: relative;
+  min-height: 230px;
+  overflow: hidden;
+}
+.content__bg img {
+  position: absolute;
+}
+
+.info {
+  padding: 15px 15px;
+}
+.info__main {
+  display: flex;
+  align-items: self-start;
+  margin-bottom: 15px;
+}
+.info__img {
+  max-width: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.info__box p {
+  margin-bottom: 5px;
+}
+.info__box p:first-child {
+  font-weight: 600;
+  font-size: min(max(
+                              20px + 5 *
+                              (
+                              (100vw - 768px) / 672
+                              )
+                      , 20px), 25px);
+  margin-bottom: 15px;
+}
+
+.post {
+  margin-top: 30px;
+  max-width: 100%;
+}
+.post__new {
+  margin-top: 15px;
+}
+.post__new input {
+  color: #212121;
+  max-width: 85%;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #e7ffdc;
+  outline: 0;
+}
+.post__new input::placeholder {
+  color: #212121;
+}
+.post__others {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.post__item {
+  display: flex;
+  align-items: self-start;
+  margin-bottom: 15px;
+}
+.post__item:last-child {
+  margin-bottom: 0;
+}
+.post__item p {
+  margin-top: 7px;
+}
+.post__avatar {
+  max-width: 70px;
+  min-height: 70px;
+  width: 100%;
+  background-color: #ffcd6b;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.content-wrapper {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

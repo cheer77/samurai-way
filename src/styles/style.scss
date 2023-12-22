@@ -1,12 +1,12 @@
 @import "reset";
 @import "mixins";
 @import "global";
+@import "../components/Header.module";
+@import "../components/Navbar.module";
+@import "../components/Profile.module";
 
-.app-wrapper {
-  display: grid;
-  grid-template-areas: "header header" "nav content";
-  grid-template-rows: 1fr;
-  grid-template-columns: 2fr 10fr;
+.content-wrapper {
+  display: flex;
 }
 
 @import "media";

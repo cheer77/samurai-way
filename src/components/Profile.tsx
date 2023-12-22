@@ -32,9 +32,27 @@ export const Profile = () => {
           </div>
 
           <div className={s.post__others}>
-            <div className={s.post__item}>Post 1</div>
-            <div className={s.post__item}>Post 2</div>
-            <div className={s.post__item}>Post 3</div>
+            <div className={s.post__item}>
+              <div className={s.post__avatar}>
+                <img src="" alt="avatar" />
+              </div>
+
+              <p>Post 1</p>
+            </div>
+            <div className={s.post__item}>
+              <div className={s.post__avatar}>
+                <img src="" alt="avatar" />
+              </div>
+
+              <p>Post 2</p>
+            </div>
+            <div className={s.post__item}>
+              <div className={s.post__avatar}>
+                <img src="" alt="avatar" />
+              </div>
+
+              <p>Post 3</p>
+            </div>
           </div>
         </div>
       </div>
