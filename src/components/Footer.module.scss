@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+  background-color: #b7ffc4;
+
+  &__inner {
+    p {
+      text-align: center;
+    }
+  }
+}

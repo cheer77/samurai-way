@@ -228,6 +228,17 @@ body {
   margin-right: 20px;
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+  background-color: #b7ffc4;
+}
+.footer__inner p {
+  text-align: center;
+}
+
 .content-wrapper {
   display: flex;
 }
