@@ -5,9 +5,22 @@
 @import "../components/Navbar/Navbar.module";
 @import "../components/Profile/Profile.module";
 @import "../components/Footer/Footer.module";
+@import "../components/Dialogs/Dialogs.module";
 
-.content-wrapper {
+.App {
   display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-grow: 1;
+}
+
+.content-main {
+  max-width: 100%;
+  width: 100%;
 }
 
 @import "media";
