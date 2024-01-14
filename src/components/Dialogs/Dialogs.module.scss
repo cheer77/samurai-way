@@ -1,2 +1,28 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  background-color: #f1f1f1;
+  height: 100%;
+  padding: 20px 10px;
+}
+.dialogItems {
+  background-color: #fff;
+  padding: 10px 5px;
 
+  div + div {
+    margin-top: 20px;
+  }
+}
+.dialog {
+  cursor: pointer;
+}
+.dialog.active {
+  color: #0aa400;
+}
 
+.messages {
+}
+
+.message {
+  background-color: #fa4f4f;
+}
