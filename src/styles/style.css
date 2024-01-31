@@ -151,41 +151,6 @@ body {
   max-width: 100%;
   width: 100%;
 }
-.content__bg {
-  position: relative;
-  min-height: 230px;
-  overflow: hidden;
-}
-.content__bg img {
-  position: absolute;
-}
-
-.info {
-  padding: 15px 15px;
-}
-.info__main {
-  display: flex;
-  align-items: self-start;
-  margin-bottom: 15px;
-}
-.info__img {
-  max-width: 100px;
-  border-radius: 50%;
-  margin-right: 30px;
-}
-.info__box p {
-  margin-bottom: 5px;
-}
-.info__box p:first-child {
-  font-weight: 600;
-  font-size: min(max(
-                              20px + 5 *
-                              (
-                              (100vw - 768px) / 672
-                              )
-                      , 20px), 25px);
-  margin-bottom: 15px;
-}
 
 .footer {
   display: flex;

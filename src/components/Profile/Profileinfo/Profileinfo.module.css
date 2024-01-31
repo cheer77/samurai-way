@@ -1,0 +1,32 @@
+.info {
+  padding: 15px 15px;
+}
+.info__main {
+  display: flex;
+  align-items: self-start;
+  margin-bottom: 15px;
+}
+.info__img {
+  max-width: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.info__box p {
+  margin-bottom: 5px;
+}
+.info__box p:first-child {
+  font-weight: 600;
+  font-size: ac(25px, 20px);
+  margin-bottom: 15px;
+}
+
+.bg {
+  position: relative;
+  min-height: 230px;
+  overflow: hidden;
+}
+.bg img {
+  position: absolute;
+}
+
+/*# sourceMappingURL=Profileinfo.module.css.map */
